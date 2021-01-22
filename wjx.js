@@ -1,35 +1,3 @@
-
-// function formats(date){
-//     let year = date.getFullYear();
-//     let mon  = date.getMonth() + 1 < 10 ? `0${date.getMonth() + 1}` : date.getMonth() + 1;
-//     let day  = date.getDate() + 1 < 10 ? `0${date.getDate()}` : date.getDate();
-//     return `${year}-${mon}-${day}`;
-// }
-
-// // 日期填写
-// document.querySelector("#q1").value = formats(new Date());
-// // 所有单选
-// let radios = document.querySelectorAll(".jqRadio");
-// // 网址上的 班级是前三个 下标是从0开始的! 自己可以算
-// // 假设高二 5班
-// radios[1].click();  // 下标0开始
-// radios[7].click();  // 2+5
-// // 4位座位号
-// document.querySelector("#q4").value = "29"; //自己改
-// // 姓名
-// document.querySelector("#q5").value = "名字"; //自己改
-// //体温 
-// document.querySelector("#q6_1").value = "正常";
-// // 咳嗽 发热 是=21 否=20
-// radios[20].click();  // 2+5
-// //接触史
-// document.querySelectorAll(".jqCheckbox")[0].click();
-// // 位置
-// document.querySelector("#q9").value=""
-
-
-
-
 /**
  * Author @Jesty
  * Date 2020 - 01 - 22
